@@ -1,0 +1,13 @@
+{
+  "name": "ct-alpha-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CT Binance Alpha public market dashboard",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/preview.mjs",
+    "test": "node scripts/check-judgement.mjs"
+  }
+}
